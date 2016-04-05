@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= title %></title>
+
+	<link rel="stylesheet" href="/stylesheets/style.css">
+	<link rel="stylesheet" href="/stylesheets/layout.css">
+	<link rel="stylesheet" href="/datatables.net/style/jquery.dataTables.css">
+
+
+	<script src="/jquery/dist/jquery.js"></script>
+</head>
+
+<body>
+	<div class="header">
+		<h3 class="logo">
+			<!-- <a href="" title="jQuery Plugins"></a> -->
+			<img src="images/logo-jquery.png" alt="">
+		</h3>
+	</div>
+
+	<div class="header-nav">
+		<ul class="list-unstyled">
+			<li>
+				<a href="/">首页</a>
+			</li>
+			<li>
+				<a href="/plugins/datatables">datatable</a>
+			</li>
+			<li>
+				<a href="/plugins/tab">tab</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="main">
+		<ul class="left-nav list-unstyled">
+			<li>
+				<a href="">基本示例</a>
+			</li>
+		</ul>
+		<div class="main-body">
+			<%- body -%>
+		</div>
+	</div>
+
+	<div class="footer">footer</div>
+</body>
+</html>
